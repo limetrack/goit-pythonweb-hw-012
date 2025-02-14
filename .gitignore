@@ -1,0 +1,47 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env.*
+
+!.env.example
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled and logs
+*.log
+*.sqlite3
+
+# VSCode and IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker specific
+*.db
+docker-compose.override.yml
+
+# Cache
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Testing
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
